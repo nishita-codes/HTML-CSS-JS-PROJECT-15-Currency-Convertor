@@ -14,10 +14,27 @@ body{
     background-color: white;
     max-width: 80vw;
     margin: auto;
+    margin-top: 20px;
 }
 h2{
-    margin-left:600px
+    margin-left:550px;
+    margin-top:15px;
+    
 }
+.container form{
+    display: flex;
+    flex-direction: column;
+
+}
+.container form input[type="number"] , select{
+  font-size: 25px;
+  margin-bottom:23px ;
+  width:23vw;
+ }
+.container form label{
+  font-size: 25px;
+
+ }
 .logo{
    display: flex;
    justify-content: center;
