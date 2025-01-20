@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: rgb(117, 170, 219);
+    background-color: rgb(150, 199, 244);
     font-family: "Poppins", serif;
 }
 .container{
@@ -17,22 +17,37 @@ body{
    display: flex;
    justify-content: center;
    align-items: center;
+   font-size: 27px;
+   font-weight: 700;
+   border:1px solid rgb(150, 199, 244); 
+   background-color: rgb(150, 199, 244);
+   height:50px;
+   width:334px;
+   margin-top:16px;
+   margin-left:10px;
 }
 nav{
    display: flex; 
+   background-color: rgb(27, 143, 163);
    
 }
 nav a{
     text-decoration: none;
+    color:white;
+}
+nav a:hover{
+    text-decoration: underline;
+    color:rgb(42, 9, 118);
 }
 nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left:600px;
 }
 nav ul li{
     list-style-type: none;
-    
+    font-size: 19px;
     font-weight: 600;
    margin:30px 23px;   
 }
