@@ -14,7 +14,8 @@ body{
     background-color: white;
     max-width: 80vw;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 10px;
+    border:1px solid black;
 }
 h2{
     margin-left:550px;
@@ -26,15 +27,42 @@ h2{
     flex-direction: column;
 
 }
-.container form input[type="number"] , select{
-  font-size: 25px;
+.container form  select{
+  margin-left:50px;
+  height: 70px;
+  font-size: 16px;
   margin-bottom:23px ;
   width:23vw;
  }
-.container form label{
+.container form input[type="number"]{
+  margin-left:50px;
+  height: 70px;
+  font-size: 30px;
+  margin-bottom:23px ;
+  width:23vw;
+ }
+.label1{
   font-size: 25px;
+  margin-top: 40px;
+  margin-left:50px;
+
+}
+.label2{
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left:50px;
 
  }
+ .btn{
+    width:144px;
+padding:12px 23px;
+font-size: 23px;
+background-color:  rgb(27, 143, 163);
+color:white;
+border-radius: 13px;
+margin-left:50px;
+}
+
 .logo{
    display: flex;
    justify-content: center;
