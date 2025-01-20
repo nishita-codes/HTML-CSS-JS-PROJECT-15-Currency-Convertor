@@ -32,30 +32,32 @@ h2{
   height: 70px;
   font-size: 16px;
   margin-bottom:23px ;
-  width:23vw;
+  width:28vw;
  }
 .container form input[type="number"]{
   margin-left:50px;
   height: 70px;
   font-size: 30px;
   margin-bottom:23px ;
-  width:23vw;
+  width:28vw;
  }
 .label1{
   font-size: 25px;
+  font-weight: 600;
   margin-top: 40px;
   margin-left:50px;
 
 }
 .label2{
   font-size: 25px;
+  font-weight: 600;
   margin-top: 20px;
   margin-left:50px;
 
  }
  .btn{
     width:144px;
-padding:12px 23px;
+padding:5px 8px;
 font-size: 23px;
 background-color:  rgb(27, 143, 163);
 color:white;
@@ -101,7 +103,20 @@ nav ul li{
     font-weight: 600;
    margin:30px 23px;   
 }
+.output table {
+    margin-top:20px;
+    text-align:center;
+    width:40vw;
+    margin-left: 315px;
+    border:1px solid black;
+    height:100px;
+    width:600px;
 
+}
+.output h2{
+    margin-top: 30px;
+    margin-left:300px;
+}
 footer{
    text-align: center;
    text-align: center;
