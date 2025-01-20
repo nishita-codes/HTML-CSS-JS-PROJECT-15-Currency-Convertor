@@ -11,7 +11,12 @@ body{
 }
 .container{
     min-height: 100vh;
-    
+    background-color: white;
+    max-width: 80vw;
+    margin: auto;
+}
+h2{
+    margin-left:600px
 }
 .logo{
    display: flex;
@@ -19,7 +24,7 @@ body{
    align-items: center;
    font-size: 27px;
    font-weight: 700;
-   border:1px solid rgb(150, 199, 244); 
+   border:2px solid white; 
    background-color: rgb(150, 199, 244);
    height:50px;
    width:334px;
