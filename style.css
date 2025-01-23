@@ -15,7 +15,7 @@ body{
     opacity: 0.8;
     min-height: 100vh;
     background-color: white;
-    box-shadow: -2px 0px 30px 7px rgb(27, 143, 163) ;
+    box-shadow: -2px 0px 40px 5px rgb(37, 45, 61) ;
     max-width: 80vw;
     margin: auto;
     margin-top: 10px;
@@ -32,7 +32,8 @@ h2{
 .container form{
     display: flex;
     flex-direction: column;
-
+    position:fixed;
+    top:140px;
 }
 .container form  select{
   margin-left:50px;
@@ -108,13 +109,13 @@ nav ul li{
     list-style-type: none;
     font-size: 19px;
     font-weight: 600;
-   margin:30px 23px;   
+   margin:30px 350px;   
 }
 .output table {
     margin-top:20px;
     text-align:center;
     width:40vw;
-    margin-left: 100px;
+    margin-left: 600px;
     border:1px solid white;
     height:100px;
     width:600px;
@@ -122,11 +123,11 @@ nav ul li{
 }
 .output h2{
     margin-top: 30px;
-    margin-left:80px;
+    margin-left:550px;
 }
 
 .output{
-    /* display: none; */
+    display: none;
 }
 footer{
    text-align: center;

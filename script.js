@@ -760,12 +760,13 @@ let rJson = JSON.parse(`{
   }
 }
  `)
+ document.querySelector(".output").style.display = "block";
 console.log(rJson);
 for(let key of Object.keys(rJson["data"])){
-    myStr =`<tr>
+    myStr +=`<tr>
               <td>${key}</td>
                <td>${rJson["data"][key]["code"]}</td>
-               <td>${rJson["data"][key]["value"] * value}</td>
+               <td>${Math.round(rJson["data"][key]["value"] * value)}</td>
             </tr>`
 }
 const tableBody = document.querySelector("tbody");
