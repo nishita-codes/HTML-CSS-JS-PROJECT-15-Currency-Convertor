@@ -12,10 +12,12 @@ body{
 .container{
     min-height: 100vh;
     background-color: white;
+    box-shadow: -2px 0px 30px 7px rgb(27, 143, 163) ;
     max-width: 80vw;
     margin: auto;
     margin-top: 10px;
     border:1px solid black;
+    border-radius: 15px;
 }
 h2{
     margin-left:550px;
@@ -116,6 +118,10 @@ nav ul li{
 .output h2{
     margin-top: 30px;
     margin-left:300px;
+}
+
+.output{
+    /* display: none; */
 }
 footer{
    text-align: center;
