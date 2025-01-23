@@ -19,34 +19,34 @@
     </nav>
     <h2>Choose a Currency to Convert</h2>
     <div class="container">
+     <div class="row">
+            <form action="/action.php" method="get">
+                <label for="quantity" class="label1">Choose a Quantity:</label>
+                <input type="number" name="quantity" min="1" max="10">
+                <label for="currency" class="label2">Choose a Currency:</label>
+                <select name="currency">
+                    <option value="INR">Indian Rupee</option>
+                    <option value="USD">US Dollar</option>
+                    <option value="EUR">Euro</option>
+                </select>
 
-        <form action="/action.php" method="get">
-            <label for="quantity" class="label1">Choose a Quantity:</label>
-            <input type="number" name="quantity" min="1" max="10">
-            <label for="currency" class="label2">Choose a Currency:</label>
-            <select name="currency">
-                <option value="INR">Indian Rupee</option>
-                <option value="USD">US Dollar</option>
-                <option value="EUR">Euro</option>
-            </select>
+                <button class="btn" type="submit">Submit</button>
+            </form>
+            <div class="output">
+                <h2>Here is your converted values in different currencies</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Currency</th>
+                            <th>Currency Code</th>
+                            <th>Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
 
-            <button class="btn" type="submit">Submit</button>
-        </form>
-        <div class="output">
-            <h2>Here is your converted values in different currencies</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Currency</th>
-                        <th>Currency Code</th>
-                        <th>Value</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    
-                </tbody>
-               
-            </table>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
     <footer>

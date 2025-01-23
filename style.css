@@ -10,6 +10,9 @@ body{
     font-family: "Poppins", serif;
 }
 .container{
+    background: url(image.png) no-repeat center center/cover;
+    position:relative;
+    opacity: 0.8;
     min-height: 100vh;
     background-color: white;
     box-shadow: -2px 0px 30px 7px rgb(27, 143, 163) ;
@@ -18,7 +21,9 @@ body{
     margin-top: 10px;
     border:1px solid black;
     border-radius: 15px;
+    color:white;
 }
+
 h2{
     margin-left:550px;
     margin-top:15px;
@@ -82,7 +87,7 @@ margin-left:50px;
 }
 nav{
    display: flex; 
-   background-color: rgb(27, 143, 163);
+   background-color: rgb(37, 45, 61);
    
 }
 nav a{
@@ -109,15 +114,15 @@ nav ul li{
     margin-top:20px;
     text-align:center;
     width:40vw;
-    margin-left: 315px;
-    border:1px solid black;
+    margin-left: 100px;
+    border:1px solid white;
     height:100px;
     width:600px;
 
 }
 .output h2{
     margin-top: 30px;
-    margin-left:300px;
+    margin-left:80px;
 }
 
 .output{
@@ -126,4 +131,7 @@ nav ul li{
 footer{
    text-align: center;
    text-align: center;
+}
+.row{
+    display: flex;
 }

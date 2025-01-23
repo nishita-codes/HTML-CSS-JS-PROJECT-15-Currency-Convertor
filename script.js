@@ -1,10 +1,10 @@
 
 const populate=async(currency, value)=>{
-    let myStr ="";
+    let myStr = "";
 // url="https://api.currencyapi.com/v3/latest?apikey=cur_live_DUmxoDfzihQ44zU6qQkUHcy5veZH2wBRi1Nc7PTd&base_currency"
 // let response = await fetch(url);
 // let data = await response.json();
-let data = JSON.parse(`{
+let rJson = JSON.parse(`{
   "meta": {
     "last_updated_at": "2025-01-22T23:59:59Z"
   },
@@ -759,26 +759,26 @@ let data = JSON.parse(`{
     }
   }
 }
-    `)
-console.log(data);
-for(let key of Object.keys(data["data"])){
+ `)
+console.log(rJson);
+for(let key of Object.keys(rJson["data"])){
     myStr =`<tr>
               <td>${key}</td>
-               <td>${data["data"][key]["code"]}</td>
-               <td>${data["data"][key]["value"] * value}</td>
+               <td>${rJson["data"][key]["code"]}</td>
+               <td>${rJson["data"][key]["value"] * value}</td>
             </tr>`
 }
 const tableBody = document.querySelector("tbody");
 tableBody.innerHTML = myStr;
-
 }
+
+
 const btn = document.querySelector(".btn");
 btn.addEventListener("click", (e)=>{
     e.preventDefault();
     console.log("button is clicked");
     const value = parseInt(document.querySelector("input[name='quantity']").value);
     const currency = document.querySelector("select[name='currency']").value;
-   
     populate(currency, value);
 })
 
